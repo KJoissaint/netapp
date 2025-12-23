@@ -1,0 +1,54 @@
+## Ignore Visual Studio / VS Code files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build results
+bin/
+obj/
+out/
+
+## Ignore OS files
+.DS_Store
+Thumbs.db
+
+## Ignore logs
+*.log
+
+## Ignore secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Ignore certificates
+*.pfx
+
+## Ignore NuGet
+.nuget/
+packages/
+
+## Ignore Rider / JetBrains
+.idea/
+*.iml
+
+## Ignore test results
+TestResults/
+
+## Ignore publish output
+publish/
+
+## Ignore dotenv files
+.env
+.env.*
+
+## Ignore coverage
+coverage/
+*.coverage
+*.coveragexml
+
+## Ignore temporary files
+*.tmp
+*.temp
